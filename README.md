@@ -9,20 +9,20 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This repository contains a complete machine learning pipeline for the [NeurIPS 2024 - Predict New Medicines with BELKA](https://www.kaggle.com/competitions/leash-BELKA) competition. The goal is to predict whether small molecules will bind to specific protein targets—a critical step in drug discovery.
 
 ### Key Features
-- 🧬 **Morgan fingerprint** molecular representation using RDKit
-- 🤖 **Ensemble learning** with XGBoost, LightGBM, and Random Forest
-- 📊 **5-fold stratified cross-validation** for robust evaluation
-- 🎯 **Strong performance**: 0.9183 AUC-ROC, 0.3400 Average Precision
-- 🚀 **Efficient**: Trains in ~20 minutes on standard hardware
+-  **Morgan fingerprint** molecular representation using RDKit
+-  **Ensemble learning** with XGBoost, LightGBM, and Random Forest
+-  **5-fold stratified cross-validation** for robust evaluation
+-  **Strong performance**: 0.9183 AUC-ROC, 0.3400 Average Precision
+-  **Efficient**: Trains in ~20 minutes on standard hardware
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -38,7 +38,7 @@ jupyter notebook neurips-2024-predict-new-medicines-with-belka.ipynb
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 ### Overview
 - **Source**: Leash Biosciences BELKA dataset
@@ -60,7 +60,7 @@ The dataset exhibits extreme class imbalance (~99% non-binders), reflecting real
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### Pipeline Architecture
 
@@ -123,10 +123,10 @@ Raw SMILES → Morgan Fingerprints → Feature Matrix → Ensemble Models → Pr
 
 ### Key Insights
 
-✅ **Ensemble improves over individual models** by 1.4-3.6%  
-✅ **Strong discrimination** across all protein targets (AUC > 0.78)  
-✅ **36.5× better than random** on minority class (AP: 0.34 vs baseline 0.0093)  
-✅ **Robust across folds** (CV std < 0.04 for AUC)
+ **Ensemble improves over individual models** by 1.4-3.6%  
+ **Strong discrimination** across all protein targets (AUC > 0.78)  
+ **36.5× better than random** on minority class (AP: 0.34 vs baseline 0.0093)  
+ **Robust across folds** (CV std < 0.04 for AUC)
 
 
 
@@ -324,7 +324,7 @@ The models show good stability across folds, indicating robust performance.
 ---
 
 
-## 📚 References
+##  References
 
 ### Papers
 - Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *KDD 2016*.
